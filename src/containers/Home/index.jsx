@@ -1,9 +1,9 @@
-import { Title } from "./styles";
+import AppNavbar from "../../components/AppNavbar";
 
 function Home() {
     return (
         <>
-            <Title>Home</Title>
+            <AppNavbar />
         </>
     );
 }

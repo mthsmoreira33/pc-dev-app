@@ -1,11 +1,13 @@
-import Home from "./containers/Home"
+import AppRoutes from "./routes/AppRoutes";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./styles/global.css";
 
 function App() {
   return (
     <>
-      <Home />
+      <AppRoutes />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
